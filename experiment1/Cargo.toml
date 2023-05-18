@@ -1,0 +1,19 @@
+[package]
+name = "experiment1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.71"
+clap = { version = "4.2.7", features = ["derive"] }
+csv = "1.2.1"
+itertools = "0.10.5"
+libsvm = { version = "0.4.0", default-features = false, features = ["link"] }
+linfa = { version = "0.6.1", features = ["intel-mkl-static"] }
+linfa-bayes = "0.6.1"
+linfa-datasets = { version = "0.6.1", features = ["winequality"] }
+linfa-svm = "0.6.1"
+ndarray = "0.15.6"
+ndarray-csv = "0.5.1"

@@ -1,0 +1,13 @@
+[package]
+name = "transpose_eigen"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.71"
+clap = { version = "4.2.7", features = ["derive"] }
+csv = "1.2.1"
+ndarray = "0.15.6"
+ndarray-csv = "0.5.1"

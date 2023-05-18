@@ -1,0 +1,1 @@
+A small script for fixing incorrect input data. Originally, the data was said to be given in row-major order, but it was instead given in column-major order. This script is used to transpose the data and create a new, correct dataset.
